@@ -1,16 +1,17 @@
-# hello_me
+Assignment 2 - Android Development 
 
-A new Flutter project.
+Overview
 
-## Getting Started
+This assignment extends the functionality of the Startup Name Generator App by adding authentication and cloud database integration. The goal is to allow users to back up their favorite startup names to the cloud and access them from different devices.
 
-This project is a starting point for a Flutter application.
+Features
 
-A few resources to get you started if this is your first Flutter project:
+Firebase Authentication: Users can log in and sign up.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cloud Firestore Integration: Saves and retrieves favorite startup names.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User State Management: Maintains login state using the Provider package.
+
+Enhanced UI Features: Updated login screen with a "Sign Up" button and cloud-synced favorites.
+
+Offline and Online Functionality: Favorites persist locally for logged-out users and sync with the cloud when logged in.
